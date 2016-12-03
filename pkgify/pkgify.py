@@ -352,12 +352,12 @@ def main():
 #        "name" : None,
 #        "version" : None,
 #        "origin" : None,
-        "comment" : "FreeNAS package",
-        "maintainer" : "dev@freenas.org",
+        "comment" : "ZFStor package",
+        "maintainer" : "dev@zfstor.org",
         "prefix" : "/",
-        "www" : "http://www.ixsystems.com/",
+        "www" : "http://www.zfstor.org/",
         "licenselogic" : "single",
-        "desc" : "FreeNAS OS Package",
+        "desc" : "ZFStor OS Package",
         }
         
         

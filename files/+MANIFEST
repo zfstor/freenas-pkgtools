@@ -2,10 +2,10 @@
 	"name": "freenas-pkg-tools",
 	"version": "VERSION",
 	"origin": "freenas/pkg-tools",
-	"comment": "FreeNAS Package tools",
+	"comment": "ZFStor Package tools",
 	"arch": "freebsd:10:x86:64",
-	"www": "http://www.freenas.org/",
-	"maintainer": "dev@ixsystems.com",
+	"www": "http://www.zfstor.org/",
+	"maintainer": "dev@zfstor.org",
 	"prefix": "/",
 	"desc": "FreeNAS package management tools.  Packages are PKGNG-like.",
 	"scripts" : {

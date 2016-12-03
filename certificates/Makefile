@@ -3,11 +3,11 @@
 FILESDIR= ${PREFIX}/share/certs
 
 PRODUCTION_CERTS=	Production-1.pem Production-2.pem freenas-update.pem
-NIGHTLY_CERTS=	FreeNAS-Nightly.pem nightlies-1.pem nightlies-2.pem
+NIGHTLY_CERTS=	ZFStor-Nightly.pem nightlies-1.pem nightlies-2.pem
 
 FILES=	Production.pem \
 	Nightlies.pem \
-	iX-CA.pem
+	zfstor-CA.pem
 
 Production.pem:	${PRODUCTION_CERTS}
 	cat ${.ALLSRC} > ${.TARGET}
