@@ -2,7 +2,7 @@
 
 FILESDIR= ${PREFIX}/share/certs
 
-PRODUCTION_CERTS=	Production-1.pem Production-2.pem freenas-update.pem
+PRODUCTION_CERTS=	Production-1.pem Production-2.pem zfstor-update.pem
 NIGHTLY_CERTS=	ZFStor-Nightly.pem nightlies-1.pem nightlies-2.pem
 
 FILES=	Production.pem \
