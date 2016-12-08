@@ -37,7 +37,7 @@ class InstallerUnknownDeltaStyleException(Exception):
     pass
 
 # A list of architectures we consider valid.
-pkg_valid_archs = ["freebsd:9:x86:64", "freebsd:10:x86:64"]
+pkg_valid_archs = ["freebsd:9:x86:64", "freebsd:10:x86:64", "freebsd:12:x86:64"]
 # Some constants for the manifest JSON.
 # The ones we care about (for now) are
 # the package name, version, set of files, set
